@@ -1,0 +1,64 @@
+Title: Seeking Feedback: Is This Coding Logic Novel? (The "Solid State" Null-Inference Engine)
+Body:
+I have developed a piece of coding logic that I suspect may be novel, but I am seeking external validation from the community. I would appreciate it if those with expertise in automation, logic gates, or systems architecture could review the logic and offer their perspectives on its originality.
+Disclaimer: Please be aware I do not have a traditional technical background and therefore may misuse or conflate specific computer science terminology. I am not a computer scientist, nor do I fully understand LLM architecture. If you see a misstatement, it is not purposeful.
+Background
+I started trying to automate my job several years ago. I work in a field requiring high-level regulatory compliance and complex decision-making (formerly law/compliance). The specific industry is irrelevant, but the stakes are high: the system cannot "hallucinate" or guess. It must be solid.
+The Proposed Logic: "The Madlib in a Choose Your Own Adventure"
+For visual learners, my system acts like a Madlib inside a Choose Your Own Adventure book, where the choices you make don't just change the ending—they rewrite the static text on the previous pages in real-time.
+1. Core Concept My system takes unstructured inputs (words, symbols, sentences, raw data), organizes them, and weighs the variables against a set of objectives. It then uses a combination of these weights and data to "write" a decision or narrative. Uniquely, it can read its own output to generate further downstream decisions (recursive looping).
+
+2. Implementation Details
+
+Stage 1 (Basic Templating): Simple substitution. Entity <Name>.
+The [Name] of the customer is the customer has been a client since [Date of account opening]. 
+
+Stage 2 (Conditional Logic): The Subject (If Yes/No then search specific sub-field) has maintained status [STATE] since [DATE].
+The [Name] of the customer is. The customer has been a client since [Date of account opening]. 
+
+If [Name] proceed (add other parameters) then add (Person Template) 
+If [Name] ends in LLC or LP (add other parameters) then add (Company template)
+
+The [Business] in question was incorporated in  (State) and was formulated in  [State Formation]. 
+
+Stage 3 (Recustions) - Scan documentation for EIN or Social and if social reload   (Company template) or  (Person Template) if no data than send (Questionaire) using last known [EMAIL] [PHONE] if last update greater than six months perform [SYSTEM CALL PROTOCOL] or [MAIL PROTOCAL] using function for demographic information. 
+Eventually, I automated the entire workflow. The system makes decisions, builds profiles, and alters the final output based on new information "dripping" into the system during the process.
+
+Key Feature: Handling "Null" Data (Negative Inference)
+In my field, the absence of data is often as important as the presence of it.
+Standard Logic: Searches for "Technical Training." Finds Nothing. Returns "Null" or "False."
+My Logic: Searches for "Technical Training." Finds Nothing. Triggers a "Negative Inference Routine."
+It writes a specific legal argument regarding the lack of training.
+Once this statement is written, it actively precludes (blocks) any conflicting paragraphs that might otherwise appear later in the document.
+I treat "Null" not as an error, but as a primary data point.
+
+How it Works (The "Engine")
+I connect Weights to Variables. But unlike standard coding where a variable is a number (Price = 10), in my system, Logic itself is a Variable. If [Duration] {+} [Category Risk] = [Outcome Score] and the functions are also variable. 
+If the outcome reaches a threshold, a result is generated. However, the result isn't a hard-coded "Yes/No." The decision is quantified, and the method of measurement determines the final narrative.
+
+The 7 Critical Elements (Why this feels unique)
+1. Recursive Feedback (The "Loop") Most templates go A -> B -> C. My system goes A -> B, checks B, realizes it needs to change C, and then potentially updates A based on that realization. The output of one stage becomes the input logic for a previous stage.
+2. Negative Inference (Evidence of Absence) I turned "absence of evidence" into a generated argument. If the system finds nothing, it writes a specific paragraph about finding nothing, which changes the logic path for the rest of the document.
+3. Dynamic State Compilation (The "Builder") It doesn't just pick a pre-written paragraph. It "compiles" a document by weighing conflicting rules (e.g., Urgency vs. Complexity) and calculating a "winner" before writing the text.
+4. Domain Agnosticism (The "Universal" Aspect) The logic isn't hard-coded for a specific job. It is a logic engine that accepts any rules. I have successfully applied this exact same code to:
+Chatbots (detecting and resolving customer service issues).
+Legal Documentation (automating court filings).
+Mail routing and sorting. I treat "Logic" as a reusable function. I can drop a "Name Processing" module into a legal template or a customer service template, and it recycles the decision-making pathways.
+5. Separation of Logic and Data (The "Stability" Aspect) I solved the maintenance problem by separating the "Engine" from the "Fuel." I can add new risk typologies or sanctioned entities just by updating the containers/lists which updates the function logic. The core logic remains stable and does not require recoding, as the weights are additive or reductive based on Business needs.
+
+6. Logic Switching (Polymorphic Behavior) This is what I think is the breakthrough. My system treats the algorithm itself as a variable.
+Standard System: If data volume increases, it just processes more numbers.
+My System: If data volume increases past a threshold, the variable swaps the Instruction Method itself (e.g., stops using "SUM" and starts using "AVERAGE" or "PERCENTAGE"). The machine monitors the "pressure" of the data and changes the math it uses to solve the problem. It doesn't just change the numbers; it changes the equation.
+I have not Ran this at scale.. But the system slows down.. I need to manage data better at scale or increase computation.
+
+7. The "Dynamic Spell Checker" (Schema Weights) I recently built a "Spell Checker" that measures the input/output of the conversation and changes the vocabulary of the response.
+It creates "Schemas" ( 6-20 letter words) that inform the conversation.
+Depending on the Weight of the schema (e.g., "Angry Customer" vs. "Legal Clerk"), it changes the variables or the output—whichever is faster—to reflect the task.
+This means the "Static" filler words in the template actually change based on the "Weather" (Context) of the data.
+The Question
+I want to talk to someone about my work and design, that's it… I am not trying to sell anything or looking to start a business. I just want to understand why people aren't doing this?  And where to go next. 
+
+This is a small description of what I am doing and includes some simple codes. The idea has since been extrapolated over several years and thus has increased in complexity.
+
+
+
