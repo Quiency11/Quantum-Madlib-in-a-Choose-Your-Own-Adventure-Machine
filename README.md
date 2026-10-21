@@ -34,7 +34,7 @@ Status
  Python implementation
 About
 
-I have worked in anti-money laundering (AML) for 8 years and have refined this system over 10 years. I use it to automate my own work, generating deterministic, local, near-instantaneous narratives: documentation is quantified into nodes, and the outcome of the weights decides which template writes the result. AML is where it started, but I use it to automate many other tasks as well.
+I have worked in anti-money laundering (AML) for 8 years and have refined this system over 10 years. I use it to automate aspects of my own work, generating deterministic, local, near-instantaneous narratives: documentation is quantified into nodes, and the outcome of the weights decides which template writes the result. AML is where it started, but I use it to automate many other tasks as well.
 
 I am self-taught. This work is free, and I am not selling anything.
 
